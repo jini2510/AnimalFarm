@@ -20,6 +20,11 @@ public class Player {
 
     }
 
+    @Override
+    public String toString(){
+        return "Player : " + this.getPlayerName() + this.getPlayerMoney() + this.getPlayerAnimals();
+    }
+
     public Animals getPlayerAnimals() {
         return playerAnimals;
     }

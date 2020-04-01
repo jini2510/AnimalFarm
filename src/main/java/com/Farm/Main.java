@@ -14,8 +14,7 @@ public class Main extends Player {
 
     public Player createPlayer() throws PlayerException {
 
-        System.out.println(" Napoleon - Welcome to the farm");
-        System.out.println("...four legs good, two legs bad");
+        System.out.println("Welcome to the farm");
         System.out.println("Please enter your player name");
 
         Scanner scanner = new Scanner(System.in);
@@ -30,6 +29,7 @@ public class Main extends Player {
 
         Main main = new Main();
         Player player1 = main.createPlayer();
+        System.out.println(player1.toString());
 
     }
 }
