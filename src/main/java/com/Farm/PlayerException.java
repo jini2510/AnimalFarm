@@ -6,3 +6,4 @@ public class PlayerException extends Exception {
         super(message);
     }
 }
+

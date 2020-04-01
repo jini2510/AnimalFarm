@@ -13,6 +13,7 @@ public class MarketPlace {
 
     }
 
+
     public void setStringFormatter(final StringFormatter stringFormatter){
         this.stringFormatter = stringFormatter;
     }
