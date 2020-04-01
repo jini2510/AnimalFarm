@@ -29,7 +29,6 @@ public class Main extends Player {
 
         Main main = new Main();
         Player player1 = main.createPlayer();
-        System.out.println(player1);
 
     }
 }
