@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e05586-d73c-4aa7-925a-3dade0f897f6" name="Default Changelist" comment="" />
+    <list default="true" id="33e05586-d73c-4aa7-925a-3dade0f897f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnimalFarm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ZtmJdAfmSfSRMEOF8hnM1z5K4K" />
@@ -24,9 +60,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.14104372" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Farm.Main" />
+      <module name="AnimalFarm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Farm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,6 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585666693786</updated>
       <workItem from="1585666696674" duration="559000" />
+      <workItem from="1585668186139" duration="6511000" />
     </task>
     <servers />
   </component>
@@ -43,9 +105,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1585683091734">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1585683091734" />
+    <state x="363" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585668521201">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="363" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.823@0.23.1440.823" timestamp="1585668521201" />
+    <state x="458" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585679755753">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="458" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.823@0.23.1440.823" timestamp="1585679755753" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1585687764512">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585687764512" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1585687764511">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585687764511" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1585687764510">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585687764510" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1585687764512">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585687764512" />
+    <state x="221" y="23" width="1024" height="823" key="SettingsEditor" timestamp="1585680511722">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="221" y="23" width="1024" height="823" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585680511722" />
+    <state x="221" y="67" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1585668199169" />
     <state x="397" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1585666696704">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="397" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585666696704" />
+    <state x="482" y="51" key="refactoring.ChangeSignatureDialog" timestamp="1585679947508">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="482" y="51" key="refactoring.ChangeSignatureDialog/0.23.1440.823@0.23.1440.823" timestamp="1585679947508" />
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup" timestamp="1585680138962">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1585680138962" />
   </component>
 </project>
