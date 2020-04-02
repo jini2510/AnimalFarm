@@ -1,17 +1,43 @@
 package com.Farm;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "player_table")
+
 public class Player {
 
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(generator = "incrementer")
+    @GenericGenerator(name = "incrementer", strategy = "increment")
+
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Column(name = "playerName")
     private String playerName;
+
+
+    @Column(name = "playerMoney")
     private int playerMoney;
+
+    @Column(name = "playerAnimals")
     private Animals playerAnimals;
-    private StringFormatter stringFormatter;
 
     public Player(String playerName, int playerMoney, Animals playerAnimals) {
         this.playerName = playerName;
         this.playerMoney = playerMoney;
         this.playerAnimals = playerAnimals;
-        this.stringFormatter =  () -> "Player: " + this.getPlayerName() + this.getPlayerMoney() + this.getPlayerAnimals();
     }
 
     public Player() {
@@ -23,6 +49,7 @@ public class Player {
         return "Player : " + "your name is " + this.getPlayerName() +
                  " you currently have £" + this.getPlayerMoney() + " and own a " + this.getPlayerAnimals();
     }
+
 
     public Animals getPlayerAnimals() {
         return playerAnimals;
@@ -48,7 +75,4 @@ public class Player {
         this.playerMoney = playerMoney;
     }
 
-    public void setStringFormatter(final StringFormatter stringFormatter){
-        this.stringFormatter = stringFormatter;
-    }
 }

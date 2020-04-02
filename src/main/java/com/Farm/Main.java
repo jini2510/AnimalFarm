@@ -1,5 +1,8 @@
 package com.Farm;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -10,7 +13,7 @@ public class Main extends Player {
     }
 
     public Player createPlayer() throws PlayerException {
-
+        
         System.out.println("Welcome to the farm");
         System.out.println("Please enter your player name");
 
@@ -18,15 +21,34 @@ public class Main extends Player {
         String playerName = scanner.next();
         this.setPlayerName(playerName);
 
-        return new Player(this.getPlayerName(),20, randomAnimal());
+        return new Player(this.getPlayerName(),(20), randomAnimal());
     }
 
 
     public static void main(String[] args) throws PlayerException {
 
-        Main main = new Main();
-        Player player1 = main.createPlayer();
-        System.out.println(player1.toString());
+        EntityManagerFactory entityManagerFactory =
+                Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
+
+        Player player1 = new Player();
+        player1.setId(2);
+        player1.setPlayerName("James");
+        player1.setPlayerMoney(10);
+        player1.setPlayerAnimals(Animals.Cow);
+
+        Player player2 = new Player();
+        player2.setId(4);
+        player2.setPlayerName("Deards");
+        player2.setPlayerMoney(50);
+        player2.setPlayerAnimals(Animals.Horse);
+
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+        entityManager.getTransaction().begin();
+        entityManager.merge(player1);
+        entityManager.merge(player2);
+        entityManager.getTransaction().commit();
+
+        entityManagerFactory.close();
 
     }
 }
