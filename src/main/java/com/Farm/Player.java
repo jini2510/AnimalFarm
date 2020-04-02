@@ -20,7 +20,8 @@ public class Player {
 
     @Override
     public String toString(){
-        return "Player : " + this.getPlayerName() + this.getPlayerMoney() + this.getPlayerAnimals();
+        return "Player : " + "your name is " + this.getPlayerName() +
+                 " you currently have £" + this.getPlayerMoney() + " and own a " + this.getPlayerAnimals();
     }
 
     public Animals getPlayerAnimals() {
