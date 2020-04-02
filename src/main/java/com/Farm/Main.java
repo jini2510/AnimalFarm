@@ -9,9 +9,7 @@ public class Main extends Player {
     public Animals randomAnimal() {
         return Animals.values()[new Random().nextInt(Animals.values().length)];
     }
-
-
-
+    
     public Player createPlayer() throws PlayerException {
 
         System.out.println("Welcome to the farm");

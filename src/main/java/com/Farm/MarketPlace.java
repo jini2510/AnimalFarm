@@ -13,7 +13,6 @@ public class MarketPlace {
 
     }
 
-
     public void setStringFormatter(final StringFormatter stringFormatter){
         this.stringFormatter = stringFormatter;
     }
@@ -21,7 +20,6 @@ public class MarketPlace {
     public String getName() {
         return name;
     }
-
 
     public void setName(String name) {
         this.name = name;

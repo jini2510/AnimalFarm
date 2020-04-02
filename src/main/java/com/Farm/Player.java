@@ -7,8 +7,6 @@ public class Player {
     private Animals playerAnimals;
     private StringFormatter stringFormatter;
 
-
-
     public Player(String playerName, int playerMoney, Animals playerAnimals) {
         this.playerName = playerName;
         this.playerMoney = playerMoney;
