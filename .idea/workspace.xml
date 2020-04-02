@@ -12,8 +12,6 @@
       <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper/PlayerMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
@@ -42,6 +40,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -66,10 +65,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14104372" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Farm" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="DatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -179,7 +188,7 @@
       <workItem from="1585666696674" duration="559000" />
       <workItem from="1585668186139" duration="6511000" />
       <workItem from="1585733027145" duration="7371000" />
-      <workItem from="1585814903338" duration="5840000" />
+      <workItem from="1585814903338" duration="6480000" />
     </task>
     <servers />
   </component>
@@ -235,20 +244,24 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1398" height="5" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1585819925009" />
-    <state x="221" y="23" width="1024" height="823" key="SettingsEditor" timestamp="1585819802405">
+    <state x="221" y="23" width="1024" height="823" key="SettingsEditor" timestamp="1585821975913">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="221" y="23" width="1024" height="823" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585819802405" />
+    <state x="221" y="23" width="1024" height="823" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585821975913" />
     <state x="221" y="67" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1585668199169" />
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1585814907436">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="397" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585733026339" />
     <state x="397" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1585814907436" />
-    <state x="437" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585819801582">
+    <state x="437" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585821966097">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state x="437" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.823@0.23.1440.823" timestamp="1585819801582" />
+    <state x="437" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.823@0.23.1440.823" timestamp="1585821966097" />
+    <state x="499" y="147" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585821875172">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="499" y="147" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.823@0.23.1440.823" timestamp="1585821875172" />
     <state x="482" y="51" key="refactoring.ChangeSignatureDialog" timestamp="1585679947508">
       <screen x="0" y="23" width="1440" height="823" />
     </state>

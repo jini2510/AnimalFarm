@@ -1,4 +1,4 @@
-package Mapper;
+package com.Farm.Mapper;
 
 import com.Farm.Animal;
 import org.springframework.jdbc.core.RowMapper;
