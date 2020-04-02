@@ -13,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/src/main" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main/java" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Mapper" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper/PlayerMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
@@ -178,7 +179,7 @@
       <workItem from="1585666696674" duration="559000" />
       <workItem from="1585668186139" duration="6511000" />
       <workItem from="1585733027145" duration="7371000" />
-      <workItem from="1585814903338" duration="5566000" />
+      <workItem from="1585814903338" duration="5840000" />
     </task>
     <servers />
   </component>
