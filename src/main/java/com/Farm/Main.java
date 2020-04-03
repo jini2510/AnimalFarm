@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main extends Player {
 
-    public void saveToDatbase (Player player){
+    public void saveToDatbasebase (Player player){
 
         EntityManagerFactory entityManagerFactory =
                 Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
@@ -41,15 +41,18 @@ public class Main extends Player {
 
         this.setPlayerName(playerName);
 
-        return new Player(this.getPlayerName(),(20), randomAnimal());
+        return new Player(this.getPlayerName(),(20), randomAnimal(),50);
     }
 
+    public void gameTime(){
+        long startTime = System.currentTimeMillis();
+    }
 
     public static void main(String[] args) throws PlayerException {
 
         Main main = new Main();
         Player player1 = main.createPlayer();
-        main.saveToDatbase(player1);
+        main.saveToDatbasebase(player1);
 
     }
 }

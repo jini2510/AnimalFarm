@@ -34,10 +34,14 @@ public class Player {
     @Column(name = "playerAnimals")
     private Animals playerAnimals;
 
-    public Player(String playerName, int playerMoney, Animals playerAnimals) {
+    @Column(name = "playerScore")
+    private int playerScore;
+
+    public Player(String playerName, int playerMoney, Animals playerAnimals,int playerScore) {
         this.playerName = playerName;
         this.playerMoney = playerMoney;
         this.playerAnimals = playerAnimals;
+        this.playerScore = playerScore;
     }
 
     public Player() {

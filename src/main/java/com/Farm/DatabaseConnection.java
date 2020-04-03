@@ -10,7 +10,6 @@ public class DatabaseConnection {
             String userName = "AnimalFarm1";
             String password = "4nVVzNNcF9nT5865";
             String url = "jdbc:mysql://localhost/School";
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
             conn = DriverManager.getConnection(url, userName, password);
             System.out.println("Database connection established");
 
