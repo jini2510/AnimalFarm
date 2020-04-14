@@ -68,11 +68,11 @@ public abstract class Animal {
     @Override
     public String toString() {
         return "Animal{" +
-                "name='" + this.name +
-                ", age=" + this.age +
-                ", size=" + this.size +
-                ", gender=" + this.gender +
-                ", price=" + this.price +
+                "name = " + this.name +
+                ", age = " + this.age +
+                ", size = " + this.size +
+                ", gender = " + this.gender +
+                ", price = " + this.price +
                 '}';
     }
 }

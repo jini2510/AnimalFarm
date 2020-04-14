@@ -23,12 +23,12 @@ public class Sheep extends Animal {
     @Override
     public String toString() {
         return "Sheep{" +
-                "name='" + this.getName() +
-                ", age=" + this.getAge() +
-                ", size=" + this.getSize() +
-                ", gender=" + this.getGender() +
-                ", price=" + this.getPrice() +
-                ", colour=" + this.colour +
+                "name = " + this.getName() +
+                ", age = " + this.getAge() +
+                ", size = " + this.getSize() +
+                ", gender = " + this.getGender() +
+                ", price = " + this.getPrice() +
+                ", wool colour = " + this.colour +
                 '}';
     }
 }

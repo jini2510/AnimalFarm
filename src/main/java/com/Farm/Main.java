@@ -9,9 +9,10 @@ public class Main {
     public static void main(String[] args) {
 
         Sheep mySheep = new Sheep();
-
-
         System.out.println(mySheep);
+
+        Chicken newChicken = new Chicken();
+        System.out.println(newChicken);
     }
 
 }

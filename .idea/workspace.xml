@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2cf5d4-d8f8-41ba-9545-0343bee48a72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_assertj_assertj_core_3_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_jdbc_4_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalFarm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalFarm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/NameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/NameGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Sheep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/enums/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/enums/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/enums/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/enums/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/Cart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/Cow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/Cow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/Sheep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/enums/Colour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/enums/Colour.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,28 +104,29 @@
       <screen x="0" y="0" width="1297" height="768" />
     </state>
     <state x="332" y="305" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1297.768/-2560.-197.2560.1400@0.0.1297.768" timestamp="1586857806515" />
-    <state x="430" y="143" key="FileChooserDialogImpl" timestamp="1586870780865">
-      <screen x="0" y="0" width="1297" height="768" />
+    <state x="-1711" y="64" key="FileChooserDialogImpl" timestamp="1586876373301">
+      <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
     <state x="427" y="143" key="FileChooserDialogImpl/0.0.1288.768@0.0.1288.768" timestamp="1586802200568" />
+    <state x="-1711" y="64" key="FileChooserDialogImpl/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586876373301" />
     <state x="430" y="143" key="FileChooserDialogImpl/0.0.1297.768/-2560.-197.2560.1400@0.0.1297.768" timestamp="1586870780865" />
     <state x="432" y="143" key="FileChooserDialogImpl/0.0.1304.768@0.0.1304.768" timestamp="1586344490157" />
-    <state width="2041" height="254" key="GridCell.Tab.0.bottom" timestamp="1586874128989">
+    <state width="1002" height="254" key="GridCell.Tab.0.bottom" timestamp="1586877627019">
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
-    <state width="2041" height="254" key="GridCell.Tab.0.bottom/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586874128989" />
-    <state width="2041" height="254" key="GridCell.Tab.0.center" timestamp="1586874128989">
+    <state width="1002" height="254" key="GridCell.Tab.0.bottom/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586877627019" />
+    <state width="1002" height="254" key="GridCell.Tab.0.center" timestamp="1586877627019">
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
-    <state width="2041" height="254" key="GridCell.Tab.0.center/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586874128989" />
-    <state width="2041" height="254" key="GridCell.Tab.0.left" timestamp="1586874128989">
+    <state width="1002" height="254" key="GridCell.Tab.0.center/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586877627019" />
+    <state width="1002" height="254" key="GridCell.Tab.0.left" timestamp="1586877627019">
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
-    <state width="2041" height="254" key="GridCell.Tab.0.left/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586874128989" />
-    <state width="2041" height="254" key="GridCell.Tab.0.right" timestamp="1586874128989">
+    <state width="1002" height="254" key="GridCell.Tab.0.left/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586877627019" />
+    <state width="1002" height="254" key="GridCell.Tab.0.right" timestamp="1586877627019">
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
-    <state width="2041" height="254" key="GridCell.Tab.0.right/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586874128989" />
+    <state width="1002" height="254" key="GridCell.Tab.0.right/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1586877627019" />
     <state x="48" y="43" key="SettingsEditor" timestamp="1586870613012">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
