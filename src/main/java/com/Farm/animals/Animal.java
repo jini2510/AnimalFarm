@@ -1,6 +1,8 @@
-package com.Farm;
+package com.Farm.Animal;
 
-public class Animal {
+import com.Farm.Interfaces.IAnimal;
+
+public class Animal implements IAnimal {
 
     private String name;
     private int price;
