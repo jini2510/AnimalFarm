@@ -1,5 +1,7 @@
 package com.Farm;
 
+import com.Farm.animals.Animal;
+
 import java.util.List;
 
 public class Cart {
@@ -11,7 +13,7 @@ public class Cart {
 
     public int CartTotal() {
         int total = 0;
-        Animal animal = new Animal();
+     //   Animal animal = new Animal();
 
         for (Animal object :
                 items) {

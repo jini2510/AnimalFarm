@@ -1,4 +1,4 @@
-package com.Farm.Animal;
+package com.Farm.animals;
 
 public class Horse {
 }

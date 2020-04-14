@@ -4,6 +4,8 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
+//import javax.persistence.*;
+
 @Entity
 @Table(name = "player_table")
 

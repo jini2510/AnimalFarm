@@ -1,20 +1,29 @@
-package com.Farm.Animal;
+package com.Farm.animals;
 
-import com.Farm.Interfaces.IAnimal;
+import com.Farm.enums.Gender;
+import com.Farm.enums.Size;
 
-public class Animal implements IAnimal {
+public abstract class Animal {
 
     private String name;
+    private int age;
+    private Size size;
+    private Gender gender;
     private int price;
-
-    public Animal(String name, int price) {
-        this.price = price;
-        this.name = name;
-    }
+    private static final int maxAge = 11;
 
     public Animal() {
+        this.name = NameGenerator.generateName();
+        this.age = (int) (Math.random()*maxAge);
+        this.size = Size.values()[(int)(Math.random()*Size.values().length)];
+        this.gender = Gender.values()[(int) (Math.random()*Gender.values().length)];
 
     }
+
+    public Animal(int price) {
+        this.price = price;
+    }
+
 
     public String getName() {
         return name;
@@ -22,6 +31,26 @@ public class Animal implements IAnimal {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Size getSize() {
+        return size;
+    }
+
+    public void setSize(Size size) {
+        this.size = size;
+    }
+
+    public Gender getGender() {
+        return gender;
     }
 
     public int getPrice() {
@@ -38,7 +67,13 @@ public class Animal implements IAnimal {
 
     @Override
     public String toString() {
-        return name + "   " + price;
+        return "Animal{" +
+                "name='" + this.name +
+                ", age=" + this.age +
+                ", size=" + this.size +
+                ", gender=" + this.gender +
+                ", price=" + this.price +
+                '}';
     }
 }
 

@@ -9,5 +9,8 @@
         <module name="AnimalFarm" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AnimalFarm" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

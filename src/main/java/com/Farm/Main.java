@@ -1,58 +1,53 @@
 package com.Farm;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import com.Farm.animals.*;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main extends Player {
+public class Main {
 
-    public void saveToDatbasebase (Player player){
+    public static void main(String[] args) {
 
-        EntityManagerFactory entityManagerFactory =
-                Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
+        Sheep mySheep = new Sheep();
 
-        try {
-            EntityManager entityManager = entityManagerFactory.createEntityManager();
-            entityManager.getTransaction().begin();
-            entityManager.persist(player);
-            entityManager.getTransaction().commit();
-            entityManagerFactory.close();
 
-        }
-        catch (Exception e){
-            System.out.println(e);
-        }
-
+        System.out.println(mySheep);
     }
 
-    public Animals randomAnimal() {
-        return Animals.values()[new Random().nextInt(Animals.values().length)];
-    }
-
-    public Player createPlayer() throws PlayerException {
-
-        System.out.println("Welcome to the farm");
-        System.out.println("Please enter your player name");
-
-        Scanner scanner = new Scanner(System.in);
-        String playerName = scanner.next();
-
-        this.setPlayerName(playerName);
-
-        return new Player(this.getPlayerName(),(20), randomAnimal(),50);
-    }
-
-    public void gameTime(){
-        long startTime = System.currentTimeMillis();
-    }
-
-    public static void main(String[] args) throws PlayerException {
-
-        Main main = new Main();
-        Player player1 = main.createPlayer();
-        main.saveToDatbasebase(player1);
-
-    }
 }
+
+
+
+
+//public class Main extends Player {
+
+//    public Animals randomAnimal() {
+//        return Animals.values()[new Random().nextInt(Animals.values().length)];
+//    }
+//
+//    public Player createPlayer() throws PlayerException {
+//
+//        System.out.println("Welcome to the farm");
+//        System.out.println("Please enter your player name");
+//
+//        Scanner scanner = new Scanner(System.in);
+//        String playerName = scanner.next();
+//
+//        //this.setPlayerName(playerName);
+//
+//        //return new Player(this.getPlayerName(),(20), randomAnimal(),50);
+//        //problem with *this.getPlayerName(), my edit:
+//        return new Player(playerName, 20, randomAnimal(), 50);
+//    }
+//
+//    public void gameTime(){
+//        long startTime = System.currentTimeMillis();
+//    }
+//
+//    public static void main(String[] args) throws PlayerException {
+//
+//        Main main = new Main();
+//        Player player1 = main.createPlayer();
+//
+//    }
+// }
