@@ -13,6 +13,14 @@ public class Main {
 
         Chicken newChicken = new Chicken();
         System.out.println(newChicken);
+
+
+        System.out.println(newChicken.getTotalEggs());
+        newChicken.layEggs();
+        System.out.println(newChicken.getTotalEggs());
+        newChicken.layEggs();
+        newChicken.layEggs();
+        System.out.println(newChicken.getTotalEggs());
     }
 
 }

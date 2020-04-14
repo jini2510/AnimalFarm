@@ -9,6 +9,7 @@ public class Chicken extends Animal {
 
     //large female chickens lay more eggs per turn. male chickens lay no eggs.
     private int eggLayingRate;
+    private int totalEggs;
     private static final int smallEggRate = 1;
     private static final int mediumEggRate = 2;
     private static final int largeEggRate = 3;
@@ -28,8 +29,29 @@ public class Chicken extends Animal {
         }
     }
 
+
     public int getEggLayingRate() {
         return eggLayingRate;
+    }
+
+    public int getTotalEggs() {
+        return totalEggs;
+    }
+
+
+    //chicken lays eggs
+    public boolean layEggs() {
+        if (this.getGender() == Gender.FEMALE) {
+            if (this.getEggLayingRate() == smallEggRate) {
+                totalEggs += smallEggRate;
+            } else if (this.getEggLayingRate() == mediumEggRate) {
+                totalEggs += mediumEggRate;
+            } else {
+                totalEggs += largeEggRate;
+            }
+            return true;
+        }
+        return false;
     }
 
     @Override
