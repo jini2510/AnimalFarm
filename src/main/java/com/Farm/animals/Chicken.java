@@ -42,13 +42,7 @@ public class Chicken extends Animal {
     //chicken lays eggs
     public boolean layEggs() {
         if (this.getGender() == Gender.FEMALE) {
-            if (this.getEggLayingRate() == smallEggRate) {
-                totalEggs += smallEggRate;
-            } else if (this.getEggLayingRate() == mediumEggRate) {
-                totalEggs += mediumEggRate;
-            } else {
-                totalEggs += largeEggRate;
-            }
+            this.totalEggs += this.eggLayingRate;
             return true;
         }
         return false;
