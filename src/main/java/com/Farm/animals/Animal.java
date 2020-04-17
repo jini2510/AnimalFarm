@@ -13,11 +13,15 @@ public abstract class Animal {
     private static final int maxAge = 11;
 
     public Animal() {
-        this.name = NameGenerator.generateName();
-        this.age = (int) (Math.random()*maxAge);
-        this.size = Size.values()[(int)(Math.random()*Size.values().length)];
-        this.gender = Gender.values()[(int) (Math.random()*Gender.values().length)];
-
+        super();
+        this.age = (int) (Math.random() * maxAge);
+        this.size = Size.values()[(int) (Math.random() * Size.values().length)];
+        this.gender = Gender.values()[(int) (Math.random() * Gender.values().length)];
+        if (this.gender == Gender.MALE) {
+            this.name = NameGenerator.generateMaleName();
+        } else {
+            this.name = NameGenerator.generateFemaleName();
+        }
     }
 
     public Animal(int price) {
@@ -37,16 +41,27 @@ public abstract class Animal {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public boolean setAge(int age) {
+        if (age > this.age) {
+            this.age = age;
+        }
+        return true;
     }
 
     public Size getSize() {
         return size;
     }
 
-    public void setSize(Size size) {
-        this.size = size;
+
+    //You can only set the animal size to make it larger
+    public boolean setSize(Size size) {
+        Size currentSize = this.getSize();
+        if (currentSize == Size.SMALL && (size == Size.MEDIUM || size == Size.LARGE) ||
+                currentSize == Size.MEDIUM && size == Size.LARGE) {
+            this.size = size;
+            return true;
+        }
+        return false;
     }
 
     public Gender getGender() {
@@ -75,5 +90,10 @@ public abstract class Animal {
                 ", price = " + this.price +
                 '}';
     }
+
+    public abstract boolean produce();
+
+    public abstract int collect();
+
 }
 

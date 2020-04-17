@@ -1,15 +1,41 @@
 package com.Farm.animals;
 
 import com.Farm.enums.Colour;
+import com.Farm.enums.Size;
 
 public class Sheep extends Animal {
 
     private final Colour colour;
     private static String phrase = "Baa!";
 
+    private int woolLength;
+    private int woolIncrease;
+
+    private static final int smallWoolIncrease = 2;
+    private static final int mediumWoolIncrease = 3;
+    private static final int largeWoolIncrease = 4;
+
+    private static final int smallPrice = 5;
+    private static final int mediumPrice = 6;
+    private static final int largePrice = 7;
+
     public Sheep() {
         super();
+        Size size = this.getSize();
+        if (size == Size.SMALL) {
+            this.setPrice(smallPrice);
+            this.woolIncrease = smallWoolIncrease;
+        }
+        else if (size == Size.MEDIUM) {
+            this.setPrice(mediumPrice);
+            this.woolIncrease = mediumWoolIncrease;
+        }
+        else {
+            this.setPrice(largePrice);
+            this.woolIncrease = largeWoolIncrease;
+        }
         this.colour = Colour.values()[(int) (Math.random()*Colour.values().length)];
+        this.woolLength = 0;
     }
 
     public Colour getColour() {
@@ -30,5 +56,18 @@ public class Sheep extends Animal {
                 ", price = " + this.getPrice() +
                 ", wool colour = " + this.colour +
                 '}';
+    }
+
+    //sheep grows wool
+    public boolean produce() {
+        this.woolLength += this.woolIncrease;
+        return true;
+    }
+
+    //collect wool from the sheep
+    public int collect() {
+        int amount = this.woolLength;
+        this.woolLength = 0;
+        return amount;
     }
 }

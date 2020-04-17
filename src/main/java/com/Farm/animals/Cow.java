@@ -14,4 +14,15 @@ public class Cow extends Animal {
         super();
     }
 
+
+    public boolean produce() {
+        return true;
+    }
+
+    public int collect () {
+        int amount = milkStored;
+        milkStored = 0;
+        return amount;
+    }
 }
+

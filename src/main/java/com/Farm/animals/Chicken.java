@@ -20,14 +20,18 @@ public class Chicken extends Animal {
         this.eggLayingRate = 0;
         if (this.getGender() == Gender.MALE) {
             this.eggLayingRate = 0;
-        } else if (this.getSize() == Size.SMALL) {
+        }
+        else if (this.getSize() == Size.SMALL) {
             this.eggLayingRate = smallEggRate;
-        } else if (this.getSize() == Size.MEDIUM) {
+        }
+        else if (this.getSize() == Size.MEDIUM) {
             this.eggLayingRate = mediumEggRate;
-        } else {
+        }
+        else {
             this.eggLayingRate = largeEggRate;
         }
     }
+
 
 
     public int getEggLayingRate() {
@@ -40,13 +44,21 @@ public class Chicken extends Animal {
 
 
     //chicken lays eggs
-    public boolean layEggs() {
+    public boolean produce() {
         if (this.getGender() == Gender.FEMALE) {
             this.totalEggs += this.eggLayingRate;
             return true;
         }
         return false;
     }
+
+    //collect eggs from chicken
+    public int collect() {
+        int eggsCollected = this.totalEggs;
+        this.totalEggs = 0;
+        return eggsCollected;
+    }
+
 
     @Override
     public String toString() {
